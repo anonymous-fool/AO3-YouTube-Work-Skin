@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-#workskin .title {
+#workskin .yt .title {
   font-family: "Arial";
   font-weight: 600;
   font-size: 20px;
@@ -126,7 +126,7 @@
   cursor: pointer;
 }
 
-#workskin .avatar {
+#workskin .yt .avatar {
   width: 40px;
   height: 40px;
   float: left;
@@ -173,7 +173,7 @@
   max-height: 550px;
 }
 
-#workskin .comment {
+#workskin .yt .comment {
   border: none;
   font-family: Arial;
   font-size: 14px;
