@@ -14,6 +14,51 @@
   padding: 0;
 }
 
+#workskin .opUsername {
+  line-height: 250%;
+  background-color: gray;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#workskin .verified2 {
+  line-height: 1.9;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  margin-left: 0.3em;
+  background-color: #fff;
+  color: #aaa;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+#workskin .thumbnail {
+  width: 95%;
+  height: auto;
+}
+
+#workskin .showMore {
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #3ea6ff;
+  width: 100%;
+  text-align: center;
+  border: solid;
+  border-width: thin;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 #workskin .likeBar {
   float: right;
 }
@@ -24,6 +69,25 @@
   margin-left: 20px;
   vertical-align: middle;
   border-radius: 20px;
+}
+
+#workskin .relatedVideos {
+  height: auto;
+  font-family: arial;
+}
+
+#workskin .yt .relatedVideo2 {
+  border: none;
+  margin-top: 0.5em;
+  width: auto;
+}
+
+#workskin .yt .relatedVideo {
+  border: none;
+  margin-top: 0.5em;
+  grid-template-columns: 45% 2fr;
+  display: grid;
+  width: auto;
 }
 
 #workskin .hearted {
@@ -72,6 +136,7 @@
 
 #workskin .subscribeBox {
   border: 1px solid #FFFFFF;
+  margin-bottom: 2em;
   border-radius: 4px;
   max-width: 400px;
   padding: 0.5em;
@@ -100,9 +165,6 @@
 }
 
 #workskin .handle {
-  position: relative;
-  top: -0.2em;
-  left: -0.2em;
   font-weight: normal;
   font-size: 14px;
   opacity: 0.6;
@@ -189,8 +251,9 @@
   padding-right: 3px;
 }
 
-#workskin .emojiOutline {
+#workskin .emojiOutline:hover {
   cursor: pointer;
+  text-shadow: 0 0 1px white;
 }
 
 #workskin .commentDate:hover {
@@ -211,7 +274,6 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 14px;
-  text-transform: uppercase;
   margin-top: 1em;
 }
 
@@ -229,6 +291,61 @@
   padding-top: 2em;
   font-family: Arial;
   font-weight: 400;
+}
+
+#workskin .relatedVideosBar {
+  height: fit-content;
+  overflow: hidden;
+  white-space: nowrap;
+  display: grid;
+  grid-template-columns: 90% 2fr;
+}
+
+#workskin .arrowToTheRight {
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(24,24,24,1));
+  float: right;
+  width: fit-content;
+  padding: 15px;
+  padding-left: 100%;
+}
+
+#workskin .bubble {
+  font-size: 14px;
+  font-weight: 400;
+  border-style: solid;
+  display: inline-block;
+  padding-left: 20px;
+  width: fit-content;
+  background-color: #FFFFFF1A;
+  border-radius: 20px;
+  box-sizing: border-box;
+  min-width: 12px;
+  margin: 8px;
+  margin-left: 0;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-color: rgb(255, 255, 255, .5);
+  border-width: thin;
+}
+
+#workskin .bubble:hover {
+  cursor: pointer;
+  background-color: rgb(80, 80, 80);
+}
+
+#workskin .relatedVideoD {
+  font-weight: normal;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+#workskin .relatedVideoLength {
+  width: fit-content;
+  position: relative;
+  background-color: black;
+  bottom: 4vh;
+  left: -2.7vw;
 }
 
 #workskin .commentDate {
